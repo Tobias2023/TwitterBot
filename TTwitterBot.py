@@ -1,10 +1,13 @@
 import tweepy 
 from tkinter import *
 
-apiKey = 'iph42pFcrgFIdgmhq9gaboM0B' #API/Consumer 
-apiKeyScrt = 'z1YEz4Uraceiab1VvsyaIEtWwmUaVHXDbyAnY3nSXthZ7QiGwU' #API/Consumer Secret
-accessTkn = '1112786517330722817-T1jAp2GwNsZ3JddAR7QUadNzcM54LO' #Access token
-accessTknScrt = 'dsbDPfQL7iCUXCF2Z19tZ7GkE0PldqM7tOsI3Kut9mItl' #Access Token Secret
+#Submit your Twitter API information below
+
+apiKey = <Your Twitter Info>
+apiKeyScrt = <Your Twitter Info>
+accessTkn = <Your Twitter Info>
+accessTknScrt = <Your Twitter Info>
+
 
 auth = tweepy.OAuthHandler(apiKey, apiKeyScrt)
 auth.set_access_token(accessTkn, accessTknScrt)
